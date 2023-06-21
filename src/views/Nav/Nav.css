@@ -1,0 +1,22 @@
+.topnav {
+    background-color: #19212c;
+    overflow: hidden;
+    padding: 0 20px;
+    display: flex;
+  }
+  .item a {
+    color: #fff;
+    float: left;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 0 5px;
+  }
+.item a:hover {
+    background-color: #2c3441;
+  }
+  .item a.active {
+    background-color: #0e131f;
+  }
